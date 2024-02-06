@@ -3,8 +3,8 @@ FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND noninteractive
 
 ARG WINE_VERSION=winehq-staging
-ARG PYTHON_VERSION=3.10.1
-ARG PYINSTALLER_VERSION=5.3
+ARG PYTHON_VERSION=3.10.11
+ARG PYINSTALLER_VERSION=6.3.0
 
 # we need wine for this all to work, so we'll use the PPA
 RUN set -x \
